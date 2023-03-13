@@ -1,0 +1,192 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 50px;
+    background: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+header {
+    position: relative;
+}
+
+.menu {
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu_item {
+    border-right: 1px dashed gray;
+    padding-right: 28px;
+}
+
+.subheader {
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.logo_link {
+    display: block;
+    margin-top: 16px;
+}
+
+.logo_text {
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+.call_text {
+    margin-top: 17px;
+    font-weight: 300;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.number_text {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 22px;
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main_btn {
+    margin-top: 22px;
+    width: 172px;
+    height: 46px;
+    align-self: center;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/uber_bg.png') center center/cover no-repeat;
+    padding-top: 150px;
+}
+
+.promo_header {
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo_subheader {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo_derc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo_btn {
+    margin: 115px auto 0;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    display: block;
+}
+
+.causes {
+    padding: 71px 0 65px 0;
+}
+
+.taglink_causes {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.header_causes {
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.container_cause {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    height: 160px;
+}
+
+.bg_pic_cause_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.cause_text_block {
+    width: 371px;
+}
+
+.header_cause {
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+}
+
+.text_cause {
+    font-weight: 300;
+    font-size: 15px;
+    color: #202020;
+}
